@@ -1,0 +1,92 @@
+2020-10-14 13:13:15.538 [main] INFO  PropsHelper.kt - 
+
+=================================================================================
+=========================== Kotlin Full Stack Started ===========================
+=================================================================================
+== Db Name: kotlinfullstack
+== Db User: kotlinfullstack
+== Db Password: kotlinfullstack
+== Db Port: 5432
+== Db Url: kotlinfullstack
+== Db Init Mode: NEW
+== Db Max Pool Size: 3
+== Db Auto Commit: true
+== Db Transaction Isolation: TRANSACTION_REPEATABLE_READ
+=================================================================================
+
+
+2020-10-14 13:13:15.563 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-10-14 13:13:15.812 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-10-14 13:13:16.827 [main] INFO  DbFactory.kt - Database is connected...
+2020-10-14 13:13:16.906 [main] INFO  ktor.application - No ktor.deployment.watch patterns specified, automatic reload is not active
+2020-10-14 13:13:16.989 [main] INFO  ktor.application - Responding at http://0.0.0.0:9090
+2020-10-14 14:03:51.905 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-10-14 14:03:52.024 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-10-14 14:03:52.571 [Test worker] INFO  DbFactory.kt - Database is connected...
+2020-10-14 14:03:52.984 [Test worker @coroutine#48] ERROR TeamDeleteImpl - Failed to delete Team with id of 2. Message: Could not delete Team, Players relationships present : [75a3f3a6-c0f0-48c5-8 772cecbd-0f84-4503-8]
+2020-10-14 14:15:19.266 [main] INFO  PropsHelper.kt - 
+
+=================================================================================
+=========================== Kotlin Full Stack Started ===========================
+=================================================================================
+== Db Name: kotlinfullstack
+== Db User: kotlinfullstack
+== Db Password: kotlinfullstack
+== Db Port: 5432
+== Db Url: kotlinfullstack
+== Db Init Mode: NEW
+== Db Max Pool Size: 3
+== Db Auto Commit: true
+== Db Transaction Isolation: TRANSACTION_REPEATABLE_READ
+=================================================================================
+
+
+2020-10-14 14:15:19.285 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-10-14 14:15:19.401 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-10-14 14:15:19.897 [main] INFO  DbFactory.kt - Database is connected...
+2020-10-14 14:15:19.947 [main] INFO  ktor.application - No ktor.deployment.watch patterns specified, automatic reload is not active
+2020-10-14 14:15:20.016 [main] INFO  ktor.application - Responding at http://0.0.0.0:9090
+2020-10-14 15:25:43.312 [main] INFO  PropsHelper.kt - 
+
+=================================================================================
+=========================== Kotlin Full Stack Started ===========================
+=================================================================================
+== Db Name: kotlinfullstack
+== Db User: kotlinfullstack
+== Db Password: kotlinfullstack
+== Db Port: 5432
+== Db Url: kotlinfullstack
+== Db Init Mode: NEW
+== Db Max Pool Size: 3
+== Db Auto Commit: true
+== Db Transaction Isolation: TRANSACTION_REPEATABLE_READ
+=================================================================================
+
+
+2020-10-14 15:25:43.334 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-10-14 15:25:43.460 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-10-14 15:25:44.082 [main] INFO  DbFactory.kt - Database is connected...
+2020-10-14 15:25:44.144 [main] INFO  ktor.application - No ktor.deployment.watch patterns specified, automatic reload is not active
+2020-10-14 15:25:44.220 [main] INFO  ktor.application - Responding at http://0.0.0.0:9090
+2020-10-14 15:29:49.755 [main] INFO  PropsHelper.kt - 
+
+=================================================================================
+=========================== Kotlin Full Stack Started ===========================
+=================================================================================
+== Db Name: kotlinfullstack
+== Db User: kotlinfullstack
+== Db Password: kotlinfullstack
+== Db Port: 5432
+== Db Url: kotlinfullstack
+== Db Init Mode: NEW
+== Db Max Pool Size: 3
+== Db Auto Commit: true
+== Db Transaction Isolation: TRANSACTION_REPEATABLE_READ
+=================================================================================
+
+
+2020-10-14 15:29:49.774 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-10-14 15:29:49.896 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-10-14 15:29:50.425 [main] INFO  DbFactory.kt - Database is connected...
+2020-10-14 15:29:50.478 [main] INFO  ktor.application - No ktor.deployment.watch patterns specified, automatic reload is not active
+2020-10-14 15:29:50.551 [main] INFO  ktor.application - Responding at http://0.0.0.0:9090

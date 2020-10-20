@@ -1,0 +1,52 @@
+In this video I am going to show you a full stack kotlin multiplaform app that was written in about 4 hours.
+This multiplaform project uses Ktor to create a rest interface on the server as well as consuming the interface client side.
+Data is persisted to a postgres database via Exposed, which is an ORM for kotlin. The UI is React wrtten in KotlinJS.
+Although not covered in this video, adding an android client would be a breeze.
+Adding an IOS client would also be very doable.
+
+The motivation for this was to show off how fantastic kotlin multiplaform is.
+I also wanted to demonstrate how powerful KTOR is for creating lean server side apps.
+Exposed was thrown in last minute, keeping with the all kotlin theme of this demo.
+
+Why do i love Multiplatform?
+I have tried many solutions over the years for multiplatform programming and have not liked any of them.
+In my opinion, the resulting app always seemed to be lacking from a feature standpoint, especially on the client side.
+The client portions of these apps often felt more sluggish then if they where written natively.  They also tended to look very generic.
+For instance, when i wrote an app in react native i felt neutered because i could not use all the tools of android/ios on my application.
+I also hated that my app did not really look like and android  or ios app. Users would comment on this, it made them feel strange.
+
+I also hate having to write code in different languages.
+We have all been there. You write your kick ass backend in spring, and now you have to
+rewrite all your DTO containers in JS and Swift just to have them consumed by your front ends.
+Once you write all those client DTO's you feel fantastic, till the spec changes and you now have to modify code that basically does the same thing in three places.
+
+Kotlin MP solves this.  The basic KMP strategy is to enable you to write a bunch of the shared logic for an app in a common module that can be consumed.
+You would write a bunch of common code like your helpers, pojos, dtos etc...
+Your webapp, android app and server would all be written in kotlin consuming the common code.  Your IOS app still written in Swift would also consume the common code.
+The resulting app has a common base shared around server/web/android/ios.  Your codebase would be mostly Kotlin.
+For instance,  if a spec changes, instead of having to modify 3+ sets of DTO code, you modify
+the dto in your common module and thats it. Your resulting app will have a native look and feel as well as performance. But the development and upkeep time
+will be greatly reduced do to the smaller ammount of code written.
+
+=======================
+
+Why Ktor.
+Have you ever written something in spring and felt like you are swatting a fly with a sledgehammer.
+Spring is great but sometimes you dont want all that overhead.  Ktor to the rescue.
+
+As you can see here, with with KTOR you can get your rest service up in just a few lines of code.
+[show code for ktor hello world]
+
+Ktor also has a client library what will make your api consumption a breeze
+[show the client api code]
+
+Ktor is kmp ready, with seamless kotlin serialization, you will love working with it.
+
+
+Why Exposed.
+Exposed is very much like KTOR.  Its a light weight ORM where you can be up and running in no time.
+With a few lines of code you will be saving and retrieving datbase data.
+Its really slick, for basic crud operations i find it superior to a Spring/Hibernate solution.
+
+=========================
+Here we have our common code, to keep things simple, it is mostly dto code.
